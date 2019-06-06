@@ -203,6 +203,12 @@ nav ul li {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home header h2 {
+  margin-top: 20px;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -248,7 +254,4 @@ nav ul li {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-.home .content-pick header {
-  border-bottom: 2px dashed #C0C0C0;
 }
