@@ -146,6 +146,11 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (max-width:500px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
@@ -168,27 +173,43 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+  color: #212529;
+}
 nav {
   width: 800px;
-  margin: 30px auto;
+  margin: 30px auto 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
 }
-nav H2 {
-  padding-left: 50px;
-  margin-left: 150px;
+@media (max-width:500px) {
+  nav {
+    width: 100%;
+    margin: 10px, auto;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.6rem;
-  margin: 0 10px;
+  margin: 10px 10px;
 }
 nav ul li {
   margin: 0px 15px;
+}
+@media (max-width:500px) {
+  nav ul li {
+    margin: 0px 30px;
+  }
 }
 hr {
   width: 100%;
