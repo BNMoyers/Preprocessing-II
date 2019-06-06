@@ -208,11 +208,11 @@ nav ul li {
 }
 @media (max-width:500px) {
   nav ul li {
-    margin: 0px 30px;
+    margin: 0px 20px;
   }
 }
 hr {
-  width: 100%;
+  width: 98%;
   border: 2px dashed #C0C0C0;
 }
 .footer {
@@ -256,7 +256,7 @@ hr {
 }
 @media (max-width:500px) {
   .home .content-section .text-content {
-    width: 100%;
+    width: 98%;
     padding: 1%;
   }
 }
@@ -296,6 +296,11 @@ hr {
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
+}
+@media (max-width:500px) {
+  .home .content-destination {
+    width: 90%;
+  }
 }
 .home .content-destination img {
   border-radius: 10px;
