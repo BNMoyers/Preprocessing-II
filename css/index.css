@@ -215,25 +215,42 @@ hr {
   width: 98%;
   border: 2px dashed #C0C0C0;
 }
-form {
-  max-width: 800px;
-  margin: 0px auto;
-  border-top: 2px dashed #C0C0C0;
-  background-color: #FFEBCD;
+.contact {
+  width: 30%;
+  margin: auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
 }
-form textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
+.contact form {
+  width: 70%;
   border: 2px solid #ccc;
+  background-color: white;
   border-radius: 4px;
   background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 5px 5px;
   resize: none;
+}
+.contact div .btn {
+  text-decoration: none;
+  background-color: #008080;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   width: 100%;
