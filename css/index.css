@@ -229,6 +229,11 @@ hr {
 .home header {
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width:500px) {
+  .home header {
+    margin: 0px 4%;
+  }
+}
 .home header h2 {
   margin-top: 20px;
 }
@@ -238,13 +243,35 @@ hr {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .home .content-section {
+    flex-direction: column;
+    margin: 4%;
+    width: 100%;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width:500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    padding: 1%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width:500px) {
+  .home .content-section .img-content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -252,6 +279,11 @@ hr {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width:500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -274,9 +306,21 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width:500px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
 }
 .home .content-pick .destination .btn {
   background-color: #008080;
