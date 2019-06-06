@@ -1,14 +1,19 @@
 nav{
     width: 100%;
     margin: 0px;
-    .useFlex(space-between, center);
+    .useFlex(space-evenly, center);
     padding: 20px 0px;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px dashed @navigation-border;
     
+    H2{
+       padding-left: 75px; 
+       margin-left: 150px;
+    }
     ul{
-        .useFlex(space-between, center);
+        .useFlex(space-evenly, center);
         font-size: 1.6rem;
-        margin: 0 10px;
+        margin: 0 10px 0 150px;
+        padding-right: 50px;
 
         li{
             margin:0px 15px;

@@ -172,17 +172,22 @@ nav {
   width: 100%;
   margin: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 0px;
-  border-bottom: 2px dashed black;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav H2 {
+  padding-left: 75px;
+  margin-left: 150px;
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.6rem;
-  margin: 0 10px;
+  margin: 0 10px 0 150px;
+  padding-right: 50px;
 }
 nav ul li {
   margin: 0px 15px;
@@ -243,4 +248,7 @@ nav ul li {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick header {
+  border-bottom: 2px dashed #C0C0C0;
 }
