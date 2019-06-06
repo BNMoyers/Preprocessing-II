@@ -1,22 +1,30 @@
 nav{
-    width: 100%;
-    margin: 0px;
-    .useFlex(space-evenly, center);
+    
+    width: 800px;
+    margin: 30px auto;
+    .useFlex(space-between, center);
     padding: 20px 0px;
-    border-bottom: 2px dashed @navigation-border;
+    
+    
     
     H2{
-       padding-left: 75px; 
-       margin-left: 150px;
+        padding-left: 50px; 
+        margin-left: 150px;
     }
     ul{
-        .useFlex(space-evenly, center);
+        .useFlex(space-between, center);
         font-size: 1.6rem;
-        margin: 0 10px 0 150px;
-        padding-right: 50px;
+        margin: 0 10px;
+        
 
         li{
             margin:0px 15px;
         }
+        
     }
+}
+hr{
+    
+    width: 100%;
+    border: 2px dashed @navigation-border;
 }
