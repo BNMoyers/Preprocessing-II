@@ -1,1 +1,40 @@
-// Navigation Styles here
+nav{
+    
+    width: 800px;
+    margin: 30px auto 10px;
+    .useFlex(space-between, center);
+    padding: 20px 0px;
+    
+    @media @mobile{
+        width: 100%;
+        margin: 10px, auto;
+        .useFlex(center, space-between);
+        flex-direction: column;
+        flex-wrap: wrap;
+
+       
+    }
+    
+    
+    
+    ul{
+        .useFlex(space-between, center);
+        font-size: 1.6rem;
+        margin: 10px 10px;
+        
+        
+        li{
+            margin:0px 15px;
+
+            @media @mobile{
+                margin:0px 20px;
+            }
+        }
+        
+    }
+}
+hr{
+    
+    width: 98%;
+    border: 2px dashed @navigation-border;
+}
